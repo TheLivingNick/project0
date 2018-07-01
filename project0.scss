@@ -1,0 +1,14 @@
+$gngreen: #3a9a05;
+$gngrey: #444;
+$fore: #e2eced
+$back: #f8f8f8;
+
+body {
+    background-color: $back;
+    color: $gngrey;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: $fore;
+}
