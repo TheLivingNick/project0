@@ -2,4 +2,4 @@
 
 Web Programming with Python and JavaScript
 
-http://github.com/TheLivingNick/project0
+http://TheLivingNick.github.io/project0
