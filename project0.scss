@@ -15,6 +15,11 @@ body {
         background-color: $fore;
     }
 
+    h1 {
+        color: $gngrey;
+        display: inline;
+    }
+
     h1::first-letter {
         color: $gngreen;
     }
