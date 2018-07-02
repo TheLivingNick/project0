@@ -1,32 +1,10 @@
-/*
-Error: Invalid CSS after "$back": expected selector or at-rule, was ": #f8f8f8;"
-        on line 4 of project0.scss
+body {
+  background-color: #f8f8f8;
+  color: #444;
+  font-family: Arial, sans-serif; }
 
-1: $gngreen: #3a9a05;
-2: $gngrey: #444;
-3: $fore: #e2eced
-4: $back: #f8f8f8;
-5: 
-6: body {
-7:     background-color: $back;
-8:     color: $gngrey;
-9:     font-family: Arial, sans-serif;
+#site_head {
+  background-color: #e2eced;
+  color: red; }
 
-Backtrace:
-project0.scss:4
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:42:in `parse'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-/nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-/mnt/shared/sbin/sass:13:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"$back\": expected selector or at-rule, was \": #f8f8f8;\"\A         on line 4 of project0.scss\A \A 1: $gngreen: #3a9a05;\A 2: $gngrey: #444;\A 3: $fore: #e2eced\A 4: $back: #f8f8f8;\A 5: \A 6: body {\A 7:     background-color: $back;\A 8:     color: $gngrey;\A 9:     font-family: Arial, sans-serif;"; }
+/*# sourceMappingURL=project0.css.map */

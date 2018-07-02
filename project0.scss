@@ -1,6 +1,6 @@
 $gngreen: #3a9a05;
 $gngrey: #444;
-$fore: #e2eced
+$fore: #e2eced;
 $back: #f8f8f8;
 
 body {
@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
+#site_head {
     background-color: $fore;
+    color: red;
 }
