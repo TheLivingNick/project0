@@ -3,21 +3,25 @@ $gngrey: #444;
 $fore: #e2eced;
 $back: #f8f8f8;
 
-body {
-    background-color: $back;
+%greytext {
     color: $gngrey;
     font-family: Arial, sans-serif;
+}
+
+body {
+    @extend %greytext
+    background-color: $back;
 }
 
 #site_head {
 
     header {
+        @extend %greytext;
         background-color: $fore;
-        color: $gngrey;
     }
 
     a {
-        color: $gngrey;
+        @extend %greytext;
     }
 
     h1 {
@@ -36,4 +40,8 @@ body {
         width: 50px;
         height: 50px;
     }
+}
+
+.breadcrumb {
+    display: block;
 }
