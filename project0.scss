@@ -13,11 +13,12 @@ body {
 
     header {
         background-color: $fore;
+        color: $gngrey;
     }
 
     h1 {
-        color: $gngrey;
         display: inline;
+        float: left;
     }
 
     h1::first-letter {

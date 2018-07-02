@@ -4,10 +4,11 @@ body {
   font-family: Arial, sans-serif; }
 
 #site_head header {
-  background-color: #e2eced; }
+  background-color: #e2eced;
+  color: #444; }
 #site_head h1 {
-  color: #444;
-  display: inline; }
+  display: inline;
+  float: left; }
 #site_head h1::first-letter {
   color: #3a9a05; }
 #site_head img {
