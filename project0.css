@@ -5,6 +5,9 @@ body, #site_head header, #site_head a {
 body {
   background-color: #f8f8f8; }
 
+h1, h2 {
+  font-family: 'Montserrat', Arial, sans-serif; }
+
 img.thumb {
   width: 200px;
   height: 112px; }
