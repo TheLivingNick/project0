@@ -3,8 +3,15 @@ body {
   color: #444;
   font-family: Arial, sans-serif; }
 
-#site_head {
-  background-color: #e2eced;
-  color: red; }
+#site_head header {
+  background-color: #e2eced; }
+#site_head h1::first-letter {
+  color: #3a9a05; }
+#site_head img {
+  float: left;
+  vertical-align: bottom;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px; }
 
 /*# sourceMappingURL=project0.css.map */
