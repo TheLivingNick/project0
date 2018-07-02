@@ -9,7 +9,7 @@ $back: #f8f8f8;
 }
 
 body {
-    @extend %greytext
+    @extend %greytext;
     background-color: $back;
 }
 
