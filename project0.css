@@ -5,6 +5,9 @@ body {
 
 #site_head header {
   background-color: #e2eced; }
+#site_head h1 {
+  color: #444;
+  display: inline; }
 #site_head h1::first-letter {
   color: #3a9a05; }
 #site_head img {
