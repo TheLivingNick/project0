@@ -8,6 +8,9 @@ body {
 h1, h2 {
   font-family: 'Montserrat', Arial, sans-serif; }
 
+h2::first-letter {
+  color: #3a9a05; }
+
 img.thumb {
   width: 200px;
   height: 112px; }
