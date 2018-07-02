@@ -5,6 +5,16 @@ body, #site_head header, #site_head a {
 body {
   background-color: #f8f8f8; }
 
+img.thumb {
+  width: 200px;
+  height: 112px; }
+
+.breadcrumb li::after {
+  content: " > "; }
+
+.breadcrumb li.active::after {
+  content: ""; }
+
 #site_head header {
   background-color: #e2eced; }
 #site_head h1 {

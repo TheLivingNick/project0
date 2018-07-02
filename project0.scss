@@ -13,6 +13,19 @@ body {
     background-color: $back;
 }
 
+img.thumb {
+    width: 200px;
+    height: 112px;
+}
+
+.breadcrumb li::after {
+    content: " > ";
+}
+
+.breadcrumb li.active::after {
+    content: "";
+}
+
 #site_head {
 
     header {
