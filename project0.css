@@ -6,6 +6,8 @@ body {
 #site_head header {
   background-color: #e2eced;
   color: #444; }
+#site_head a {
+  color: #444; }
 #site_head h1 {
   display: inline;
   float: left; }
