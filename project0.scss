@@ -64,12 +64,12 @@ img.thumb {
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 650px) {
     #site_head img {
         display: inline;
     }
 }
-@media (max-width: 499px) {
+@media (max-width: 649px) {
     #site_head img {
         display: none;
     }
