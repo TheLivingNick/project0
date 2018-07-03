@@ -13,6 +13,6 @@ Requirements:
 -The Reviews page has an unordered list of reviews, the Divinity review contains a table of screenshot images.
 -The main stylesheet is project0.css.
 -Among others, the css porperties float, vertical-align, margin-left, width and height are used. For selectors, element, list of elements, #id, .class, psuedoclass and descendants are used.
-Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
+-When the screen width drops below 650px the images in the site header are removed to make room
 -The 'breadcrumb' bootstrap component is used, and the Divinty review uses multiple columns to arrange the review text and the screenshots.
 -Four scss variables are used for colors, scss nesting is used for the #site_head id, and %greytext is inherited.

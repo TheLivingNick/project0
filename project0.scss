@@ -27,7 +27,7 @@ img.thumb {
 }
 
 .breadcrumb li::after {
-    content: " > ";
+    content: ">";
 }
 
 .breadcrumb li.active::after {
