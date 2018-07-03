@@ -37,6 +37,7 @@ img.thumb {
 #site_head {
     @extend %greytext;
     background-color: $fore;
+    height: 60px;
 }
 
 #site_head {

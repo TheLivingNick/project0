@@ -22,7 +22,8 @@ img.thumb {
   content: ""; }
 
 #site_head {
-  background-color: #e2eced; }
+  background-color: #e2eced;
+  height: 60px; }
 
 #site_head h1 {
   display: inline;
