@@ -35,11 +35,11 @@ img.thumb {
 }
 
 #site_head {
+    @extend %greytext;
+    background-color: $fore;
+}
 
-    header {
-        @extend %greytext;
-        background-color: $fore;
-    }
+#site_head {
 
     a {
         @extend %greytext;
