@@ -63,3 +63,14 @@ img.thumb {
         height: 50px;
     }
 }
+
+@media (min-width: 500px) {
+    #site_head img {
+        display: inline;
+    }
+}
+@media (max-width: 499px) {
+    #site_head img {
+        display: none;
+    }
+}

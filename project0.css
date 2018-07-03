@@ -37,4 +37,11 @@ img.thumb {
   width: 50px;
   height: 50px; }
 
+@media (min-width: 500px) {
+  #site_head img {
+    display: inline; } }
+@media (max-width: 499px) {
+  #site_head img {
+    display: none; } }
+
 /*# sourceMappingURL=project0.css.map */
